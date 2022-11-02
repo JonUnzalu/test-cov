@@ -8,7 +8,7 @@ class Calculator
     }
 
     public function evaluate($num1, $num2){
-        el pipe dddd $func = $this->operator;
+        $func = $this->operator;
         return $this->$func($num1, $num2);
     }
 
